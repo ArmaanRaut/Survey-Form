@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=div, initial-scale=1.0">
+  <title>Chelsea Fan Survey</title>
+</head>
+<body>
+  <div class="content">
+    <header>
+      <h1 id="title" class="title">Chealsea FC Fan Survey</h1>
+      <p id="description" class="description">
+        Thank you for helping our club by taking this survey.
+        <br> We appreciate your time and are happy to have you as a fan.
+      </p>
+    </header>
+    <form id="survey" class="survey">
+      <div class="group">
+        <label id="name" class="name" for="name">Name</label>
+        <input 
+        type="text"
+        name="name"
+        id="name"
+        class="control"
+        placeholder="Enter your name"
+        required
+        />
+      </div>
+      <div class="group">
+        <label for="">Email</label>
+        <input type="email"
+        name="email"
+        class="control"
+        placeholder="Enter your Email"
+        required
+        />
+      </div>
+      <div class="group">
+        <label for="number" id="number-label">
+          Age <span>(optional)</span>
+        </label>
+        <input 
+        type="number"
+        name="age"
+        id="number"
+        min="5"
+        max="110"
+        class="control"
+        placeholder="Age"
+        />
+      </div>
+      <div class="group">
+        <p>Where are you from?</p>
+        <select name="place" id="dropdown" class="control" required>
+          <option disabled selected value>Select one of the options</option>
+          <option value="chealsea">Chelsea</option>
+          <option value="london">London(not Chelsea)</option>
+          <option value="uk">UK</option>
+          <option value="europe">Europe</option>
+          <option value="rotw">Rest of the world</option>
+        </select>
+      </div>
+
+      <div class="group">
+        <p>Do you see us gettung a top four finish to this season?</p>
+        <label>
+          <input 
+          name="fan-views"
+          value="definitely"
+          type="radio"
+          class="radio"
+          />Definitely
+        </label>
+
+        <label>
+          <input 
+          name="fan-views"
+          value="maybe"
+          type="radio"
+          class="radio"
+          />Maybe
+        </label>
+
+        <label>
+          <input 
+          name="fan-views"
+          value="not-sure"
+          type="radio"
+          class="radio"
+          />Not Sure
+        </label>
+      </div>
+
+      <div class="group">
+        <p>
+          Where do you see us for next season?
+        </p>
+        <select id="next-Season" name="nextSeason" class="control" required>
+          <option disabled selected value>Select an option</option>
+          <option value="champ">Competing for UCL or League Title</Title></option>
+          <option value="topfour">Top four</option>
+          <option value="mid">Mid Table</option>
+          <option value="bottom">Bottom half</option>
+          <option value="relegation">Relegation</option>
+        </select>
+      </div>
+
+      <div class="group">
+        <p>
+          What position our them needs to invest?
+          <span>(Check all that apply)</span>
+        </p>
+
+        <label
+          ><input
+            name="prefer"
+            value="goalkeeper"
+            type="checkbox"
+            class="checkbox"
+          />Goalkeeper</label>
+
+        <label>
+          <input
+            name="prefer"
+            value="defender"
+            type="checkbox"
+            class="checkbox"
+          />Defender</label>
+
+        <label
+          ><input
+            name="prefer"
+            value="rightback"
+            type="checkbox"
+            class="checkbox"
+          />Right-Back</label>
+
+        <label
+          ><input
+            name="prefer"
+            value="leftback"
+            type="checkbox"
+            class="checkbox"
+          />Left-Back</label>
+
+        <label
+          ><input
+            name="prefer"
+            value="defensivemid"
+            type="checkbox"
+            class="checkbox"
+          />Defensive-Midfielder</label>
+
+        <label
+          ><input
+            name="prefer"
+            value="centermid"
+            type="checkbox"
+            class="checkbox"
+          />Center-Midfielder</label>
+
+        <label
+          ><input
+            name="prefer"
+            value="attackingmid"
+            type="checkbox"
+            class="checkbox"
+          />Attacking-Midfielder</label>
+
+        <label
+          ><input
+            name="prefer"
+            value="rightwing"
+            type="checkbox"
+            class="checkbox"
+          />Right-Wing</label>
+
+        <label
+          ><input
+            name="prefer"
+            value="striker"
+            type="checkbox"
+            class="checkbox"
+          />Striker</label>
+          
+        <label
+          ><input
+            name="prefer"
+            value="leftwing"
+            type="checkbox"
+            class="checkbox"
+          />Left-Wing</label>
+          
+        <label
+          ><input
+            name="prefer"
+            value="substitute"
+            type="checkbox"
+            class="checkbox"
+          />Substitute</label>
+      </div>
+
+      <div class="group">
+        <p>Any comments or messeages to the club or for the players?</p>
+        <textarea
+          id="comments"
+          class="textarea"
+          name="comment"
+          placeholder="Enter your comment here..."
+        ></textarea>
+      </div>
+
+      <div class="group">
+        <button type="submit" id="submit" class="button">
+          Submit
+        </button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
