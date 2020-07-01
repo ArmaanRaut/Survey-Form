@@ -3,10 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=div, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
   <title>Chelsea Fan Survey</title>
 </head>
 <body>
+  <!-- The entire form covered in content div -->
   <div class="content">
+
+    <!-- header with the h1 heading and form description -->
     <header>
       <h1 id="title" class="title">Chealsea FC Fan Survey</h1>
       <p id="description" class="description">
@@ -14,7 +18,11 @@
         <br> We appreciate your time and are happy to have you as a fan.
       </p>
     </header>
+
+    <!-- The main form body -->
     <form id="survey" class="survey">
+
+      <!-- Div for name label and input -->
       <div class="group">
         <label id="name" class="name" for="name">Name</label>
         <input 
@@ -26,6 +34,8 @@
         required
         />
       </div>
+
+      <!-- Div for email label and input -->
       <div class="group">
         <label for="">Email</label>
         <input type="email"
@@ -35,6 +45,8 @@
         required
         />
       </div>
+
+      <!-- Div for age label and input -->
       <div class="group">
         <label for="number" id="number-label">
           Age <span>(optional)</span>
@@ -49,6 +61,8 @@
         placeholder="Age"
         />
       </div>
+
+      <!-- Div for place list -->
       <div class="group">
         <p>Where are you from?</p>
         <select name="place" id="dropdown" class="control" required>
@@ -61,6 +75,7 @@
         </select>
       </div>
 
+      <!-- Div for radio-button question -->
       <div class="group">
         <p>Do you see us gettung a top four finish to this season?</p>
         <label>
@@ -91,6 +106,7 @@
         </label>
       </div>
 
+      <!-- Div for next season list -->
       <div class="group">
         <p>
           Where do you see us for next season?
@@ -105,6 +121,7 @@
         </select>
       </div>
 
+      <!-- Div for check-boxe question -->
       <div class="group">
         <p>
           What position our them needs to invest?
@@ -200,6 +217,7 @@
           />Substitute</label>
       </div>
 
+      <!-- Div for text area question -->
       <div class="group">
         <p>Any comments or messeages to the club or for the players?</p>
         <textarea
@@ -210,6 +228,7 @@
         ></textarea>
       </div>
 
+      <!-- Div for submit button -->
       <div class="group">
         <button type="submit" id="submit" class="button">
           Submit
