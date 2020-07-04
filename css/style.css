@@ -1,1 +1,108 @@
-/*  */
+/* body styling */
+body{
+  background: linear-gradient(rgba(3, 70, 148, 0.4),rgba(3, 70, 148,0.4)), url("https://wallup.net/wp-content/uploads/2019/09/55131-chelsea-fc-blues-logo-soccer-football-flags.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* content styling */
+.content{
+  padding: 1%;
+  margin: 1%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #ffffff;
+}
+
+/* header styles */
+header{
+  text-align: center;
+}
+header .title{
+  font-size: 300%;
+  line-height: 0;
+}
+header .description{
+  font-size: 125%;
+}
+
+/* form body */
+form{
+  width: 600px;
+  padding:5%;
+  margin:auto;
+  border-radius:10px;
+  text-align:left;
+  background-color:rgba(0,0,0,0.6);
+  font-size:125%;
+}
+
+/* Name label and input */
+form .group {
+  margin: 0 1rem auto;
+  padding: .5rem;
+}
+form .group .control{
+  display: block;
+  width: 100%;
+  height: 2.5rem;
+  padding: 1% 2.5%;
+  color: #000000;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: rgb(255, 255, 255);
+  background-clip: padding-box;
+  border-radius: 10px;
+  border: 2px solid rgb(3, 70, 148);
+  transition: border-color 0.95s ease-in-out, box-shadow 0.5s ease-in-out;
+}
+form .group .control:focus{
+  border-color:  rgb(0, 119, 255);
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(0, 119, 255, 0.5);
+}
+/* radiobutton, checkbox, textarea and button  */
+.radio, .checkbox{
+  display: inline-block;
+  margin-right: 0.8rem;
+  min-height: 1rem;
+  min-width: 1rem;
+}
+.textarea{
+  width: 100%;
+  min-height: 100px;
+  padding: 0.5rem;
+  resize: vertical;
+}
+
+.group button{
+  width: 104%;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color:rgb(219,161,17);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px rgb(209,211,212);
+}
+.group button:hover{
+  background-color: rgb(180,161,17);
+}
+.group button:active{
+  background-color: rgb(170,161,17);
+  box-shadow: 0 5px rgb(9,211,212);
+  transform: translateY(4px);
+}
+
+@media only screen and (max-width:800px){
+  form{
+    width: 75%;
+    padding:5%;
+    margin:auto;
+    border-radius:10px;
+    text-align:left;
+    background-color:rgba(0,0,0,0.6);
+    font-size:125%;
+  }
+}
