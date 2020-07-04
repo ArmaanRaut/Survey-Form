@@ -1,5 +1,6 @@
 /* body styling */
 body{
+  background-color:rgba(3, 70, 148, 0.4);
   background: linear-gradient(rgba(3, 70, 148, 0.4),rgba(3, 70, 148,0.4)), url(../img/background.jpg);
   background-position: center;
   background-size: cover;
