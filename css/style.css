@@ -1,6 +1,6 @@
 /* body styling */
 body{
-  background: linear-gradient(rgba(3, 70, 148, 0.4),rgba(3, 70, 148,0.4)), url("https://wallup.net/wp-content/uploads/2019/09/55131-chelsea-fc-blues-logo-soccer-football-flags.jpg");
+  background: linear-gradient(rgba(3, 70, 148, 0.4),rgba(3, 70, 148,0.4)), url(../img/background.jpg);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
